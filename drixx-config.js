@@ -12,7 +12,7 @@ window.appConfig = {
     defaultSymbol: "BTC-PERP",
     homepageUrl: "/",
     defaultLang: "en-US",
-    defaultTheme: "dark",
+    defaultTheme: "light",
     widgets: {
       futures: [{"id":"history","indicators":[{"key":"publicTrades"},{"key":"createLimitOrder"}]},{"id":"chart","indicators":[{"key":"chart"}]},{"id":"chart-depth","indicators":[{"key":"chartDepths"}]},{"id":"create-order","indicators":[{"key":"createLimitOrder"},{"key":"createMarketOrder"}]},{"id":"positions","indicators":[{"key":"positions"},{"key":"openOrders"},{"key":"accountTrades"},{"key":"closedOrders"}]},{"id":"orders","indicators":[{"key":"orderBook"}]},{"id":"account-summary","indicators":[{"key":"accountSummary"}]},{"id":"contract-details","indicators":[{"key":"contractDetails"}]}],
       options: [{}]
@@ -624,7 +624,7 @@ window.appConfig = {
         "funding.table.head.timestamp": "Timestamp",
         "instrument.fields.baseIm": "Base Initial Margin",
         "instrument.fields.baseMm": "Base Maintenance Margin",
-        "instrument.fields.contractSize": "Contract Size",
+        "instrument.fields.contractSize": "Contract Size Hello World",
         "instrument.fields.contractType": "Contract Type",
         "instrument.fields.deliveryAt": "Delivery Date",
         "instrument.fields.deliveryFee": "Delivery Fee",
