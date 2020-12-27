@@ -624,7 +624,7 @@ window.appConfig = {
         "funding.table.head.timestamp": "Timestamp",
         "instrument.fields.baseIm": "Base Initial Margin",
         "instrument.fields.baseMm": "Base Maintenance Margin",
-        "instrument.fields.contractSize": "Contract Size Hello World",
+        "instrument.fields.contractSize": "Contract Size",
         "instrument.fields.contractType": "Contract Type",
         "instrument.fields.deliveryAt": "Delivery Date",
         "instrument.fields.deliveryFee": "Delivery Fee",
