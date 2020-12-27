@@ -12,7 +12,7 @@ window.appConfig = {
     defaultSymbol: "BTC-PERP",
     homepageUrl: "/",
     defaultLang: "en-US",
-    defaultTheme: "light",
+    defaultTheme: "dark",
     widgets: {
       futures: [{"id":"history","indicators":[{"key":"publicTrades"},{"key":"createLimitOrder"}]},{"id":"chart","indicators":[{"key":"chart"}]},{"id":"chart-depth","indicators":[{"key":"chartDepths"}]},{"id":"create-order","indicators":[{"key":"createLimitOrder"},{"key":"createMarketOrder"}]},{"id":"positions","indicators":[{"key":"positions"},{"key":"openOrders"},{"key":"accountTrades"},{"key":"closedOrders"}]},{"id":"orders","indicators":[{"key":"orderBook"}]},{"id":"account-summary","indicators":[{"key":"accountSummary"}]},{"id":"contract-details","indicators":[{"key":"contractDetails"}]}],
       options: [{}]
