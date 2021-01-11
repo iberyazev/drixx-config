@@ -613,7 +613,7 @@ window.appConfig = {
         "forms.signUp.email.error.required": "Please input your Email Address!",
         "forms.signUp.isTaxResidentAccepted.error.required": "Please accept you aren't a U.S. tax resident!",
         "forms.signUp.isTaxResidentAccepted.label": "I'm not a U.S. tax resident",
-        "forms.signUp.isTermsAccepted.error.required": "Please accept <TermsLink>terms and conditions</TermsLink>!",
+        "forms.signUp.isTermsAccepted.error.required": "Please accept terms and conditions!",
         "forms.signUp.isTermsAccepted.label": "I accept the <TermsLink>terms and conditions</TermsLink>",
         "forms.signUp.title": "Signup",
         "funding.menu.title": "Funding",
