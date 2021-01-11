@@ -8,7 +8,7 @@ window.appConfig = {
       lightThemeUrl:
               "https://uploads-ssl.webflow.com/5f478771e161508c2a99cdd5/5fc530ab785eba6b4e47cd41_logo-drixx.svg",
     },
-    termsUrl: 'https://google.com',
+    termsUrl: 'https://www.drixx.com/terms-conditions',
     defaultSymbol: "BTC-PERP",
     homepageUrl: "/",
     defaultLang: "en-US",
