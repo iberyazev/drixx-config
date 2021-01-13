@@ -13,433 +13,6 @@ window.appConfig = {
     homepageUrl: "/",
     defaultLang: "en-US",
     defaultTheme: "dark",
-    widgets: {
-      futures: [{"id":"history","indicators":[{"key":"publicTrades"},{"key":"createLimitOrder"}]},{"id":"chart","indicators":[{"key":"chart"}]},{"id":"chart-depth","indicators":[{"key":"chartDepths"}]},{"id":"create-order","indicators":[{"key":"createLimitOrder"},{"key":"createMarketOrder"}]},{"id":"positions","indicators":[{"key":"positions"},{"key":"openOrders"},{"key":"accountTrades"},{"key":"closedOrders"}]},{"id":"orders","indicators":[{"key":"orderBook"}]},{"id":"account-summary","indicators":[{"key":"accountSummary"}]},{"id":"contract-details","indicators":[{"key":"contractDetails"}]}],
-      options: [{}]
-    },
-    layouts: {
-      futures_layouts:{
-        "lg":[
-          {
-            "w":2,
-            "h":60,
-            "x":0,
-            "y":0,
-            "i":"history",
-            "minW":2,
-            "minH":20,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":6,
-            "h":44,
-            "x":2,
-            "y":0,
-            "i":"chart",
-            "minW":3,
-            "minH":25,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":6,
-            "h":16,
-            "x":2,
-            "y":44,
-            "i":"chart-depth",
-            "minW":1,
-            "minH":10,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":2,
-            "h":60,
-            "x":8,
-            "y":0,
-            "i":"create-order",
-            "minW":2,
-            "minH":20,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":8,
-            "h":30,
-            "x":2,
-            "y":60,
-            "i":"positions",
-            "minW":4,
-            "minH":15,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":2,
-            "h":60,
-            "x":10,
-            "y":0,
-            "i":"orders",
-            "minW":1,
-            "minH":20,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":2,
-            "h":30,
-            "x":10,
-            "y":60,
-            "i":"account-summary",
-            "minW":1,
-            "minH":15,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":2,
-            "h":30,
-            "x":0,
-            "y":60,
-            "i":"contract-details",
-            "minW":2,
-            "minH":20,
-            "moved":false,
-            "static":false
-          }
-        ],
-        "md":[
-          {
-            "i":"history",
-            "x":0,
-            "y":0,
-            "w":6,
-            "h":20,
-            "minH":20,
-            "minW":2
-          },
-          {
-            "i":"contract-details",
-            "x":0,
-            "y":4,
-            "w":6,
-            "h":20,
-            "minH":20,
-            "minW":2
-          },
-          {
-            "i":"chart",
-            "x":6,
-            "y":0,
-            "w":6,
-            "h":20,
-            "minH":20,
-            "minW":3
-          },
-          {
-            "i":"chart-depth",
-            "x":0,
-            "y":1,
-            "w":6,
-            "h":20,
-            "minH":10,
-            "minW":1
-          },
-          {
-            "i":"create-order",
-            "x":6,
-            "y":1,
-            "w":6,
-            "h":20,
-            "minH":20,
-            "minW":1
-          },
-          {
-            "i":"orders",
-            "x":0,
-            "y":2,
-            "w":6,
-            "h":20,
-            "minH":20,
-            "minW":1
-          },
-          {
-            "i":"account-summary",
-            "x":6,
-            "y":2,
-            "w":6,
-            "h":20,
-            "minH":15,
-            "minW":1
-          },
-          {
-            "i":"positions",
-            "x":0,
-            "y":3,
-            "w":12,
-            "h":20,
-            "minH":15,
-            "minW":4
-          }
-        ],
-        "xxs":[
-          {
-            "i":"history",
-            "x":0,
-            "y":0,
-            "w":12,
-            "h":20,
-            "minH":20,
-            "minW":2
-          },
-          {
-            "i":"contract-details",
-            "x":0,
-            "y":7,
-            "w":12,
-            "h":20,
-            "minW":2
-          },
-          {
-            "i":"chart",
-            "x":0,
-            "y":1,
-            "w":12,
-            "h":20,
-            "minH":20,
-            "minW":3
-          },
-          {
-            "i":"chart-depth",
-            "x":0,
-            "y":2,
-            "w":12,
-            "h":20,
-            "minH":10,
-            "minW":1
-          },
-          {
-            "i":"create-order",
-            "x":0,
-            "y":3,
-            "w":12,
-            "h":20,
-            "minH":20,
-            "minW":1
-          },
-          {
-            "i":"orders",
-            "x":0,
-            "y":4,
-            "w":12,
-            "h":20,
-            "minH":20,
-            "minW":1
-          },
-          {
-            "i":"account-summary",
-            "x":0,
-            "y":5,
-            "w":12,
-            "h":20,
-            "minH":20,
-            "minW":1
-          },
-          {
-            "i":"positions",
-            "x":0,
-            "y":6,
-            "w":12,
-            "h":20,
-            "minH":15,
-            "minW":4
-          }
-        ]
-      },
-      options_layouts: {
-        "lg":[
-          {
-            "w":8,
-            "h":60,
-            "x":0,
-            "y":0,
-            "i":"board",
-            "minW":4,
-            "minH":15,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":2,
-            "h":60,
-            "x":10,
-            "y":0,
-            "i":"create-order",
-            "minW":2,
-            "minH":20,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":8,
-            "h":30,
-            "x":0,
-            "y":60,
-            "i":"positions",
-            "minW":4,
-            "minH":15,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":2,
-            "h":60,
-            "x":8,
-            "y":0,
-            "i":"orders",
-            "minW":2,
-            "minH":15,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":2,
-            "h":30,
-            "x":10,
-            "y":60,
-            "i":"account-summary",
-            "minW":1,
-            "minH":15,
-            "moved":false,
-            "static":false
-          },
-          {
-            "w":2,
-            "h":30,
-            "x":8,
-            "y":60,
-            "i":"contract-details",
-            "minW":2,
-            "minH":20,
-            "moved":false,
-            "static":false
-          }
-        ],
-        "md":[
-          {
-            "i":"board",
-            "x":0,
-            "y":0,
-            "w":6,
-            "h":20,
-            "minH":15,
-            "minW":4
-          },
-          {
-            "i":"orders",
-            "x":6,
-            "y":0,
-            "w":6,
-            "h":20,
-            "minH":15,
-            "minW":2
-          },
-          {
-            "i":"contract-details",
-            "x":6,
-            "y":2,
-            "w":6,
-            "h":20,
-            "minH":20,
-            "minW":2
-          },
-          {
-            "i":"create-order",
-            "x":0,
-            "y":1,
-            "w":6,
-            "h":40,
-            "minH":20,
-            "minW":2
-          },
-          {
-            "i":"account-summary",
-            "x":6,
-            "y":2,
-            "w":6,
-            "h":20,
-            "minH":15,
-            "minW":1
-          },
-          {
-            "i":"positions",
-            "x":0,
-            "y":3,
-            "w":12,
-            "h":20,
-            "minH":15,
-            "minW":1
-          }
-        ],
-        "xxs":[
-          {
-            "i":"board",
-            "x":0,
-            "y":0,
-            "w":12,
-            "h":20,
-            "minH":15,
-            "minW":4
-          },
-          {
-            "i":"orders",
-            "x":0,
-            "y":1,
-            "w":12,
-            "h":20,
-            "minH":15,
-            "minW":2
-          },
-          {
-            "i":"contract-details",
-            "x":0,
-            "y":4,
-            "w":12,
-            "h":20,
-            "minH":20
-          },
-          {
-            "i":"create-order",
-            "x":0,
-            "y":2,
-            "w":12,
-            "h":20,
-            "minH":20,
-            "minW":2
-          },
-          {
-            "i":"account-summary",
-            "x":0,
-            "y":5,
-            "w":12,
-            "h":20,
-            "minH":20,
-            "minW":1
-          },
-          {
-            "i":"positions",
-            "x":0,
-            "y":3,
-            "w":12,
-            "h":20,
-            "minH":15,
-            "minW":1
-          }
-        ]
-      }
-    },
-
     translations: {
       'en-US': {
         "accessLog.table.head.city": "city",
@@ -521,8 +94,11 @@ window.appConfig = {
         "apiKeys.table.head.scopes": "scopes",
         "app.header.title": "Trading Platform",
         "appMenu.account": "Account",
+        "appMenu.apiDocs": "API Docs",
+        "appMenu.kb": "Knowledge Base",
+        "appMenu.perpetual": "Perpetual",
         "appMenu.reference": "Reference",
-        "appMenu.trade": "Terminal",
+        "appMenu.yield": "Yield",
         "changePasswordForm.button.submit": "Save",
         "changePasswordForm.currentPassword.error.required": "Please input your Current Password!",
         "changePasswordForm.currentPassword.placeholder": "Current Password",
@@ -605,7 +181,6 @@ window.appConfig = {
         "forms.signIn.password.error.required": "Please input your Password!",
         "forms.signIn.password.placeholder": "Password",
         "forms.signIn.remember": "Keep me signed in",
-        "forms.signIn.terms": "I accept the <TermsLink>terms and conditions</TermsLink>",
         "forms.signIn.title": "Signin",
         "forms.signUp.buttons.forgotPassword": "Forgot password",
         "forms.signUp.buttons.signIn": "Login",
@@ -613,7 +188,7 @@ window.appConfig = {
         "forms.signUp.email.error.required": "Please input your Email Address!",
         "forms.signUp.isTaxResidentAccepted.error.required": "Please accept you aren't a U.S. tax resident!",
         "forms.signUp.isTaxResidentAccepted.label": "I'm not a U.S. tax resident",
-        "forms.signUp.isTermsAccepted.error.required": "Please accept terms and conditions!",
+        "forms.signUp.isTermsAccepted.error.required": "Please accept the terms and conditions!",
         "forms.signUp.isTermsAccepted.label": "I accept the <TermsLink>terms and conditions</TermsLink>",
         "forms.signUp.title": "Signup",
         "funding.menu.title": "Funding",
@@ -773,7 +348,7 @@ window.appConfig = {
         "options.greek.vega": "Vega",
         "options.table.head.ask": "Ask",
         "options.table.head.bid": "Bid",
-        "options.table.head.delta": "âˆ† Delta",
+        "options.table.head.delta": "∆ Delta",
         "options.table.head.iv": "IV",
         "options.table.head.last": "Last",
         "options.table.head.mark": "Mark",
@@ -883,7 +458,6 @@ window.appConfig = {
         "references.instrument.specification.funding": "Funding",
         "references.instrument.specification.mark": "Mark Index and Pricing",
         "references.instrument.specification.riskLimit": "Risk Limits and Margin",
-        "references.menu.api": "API Explorer",
         "references.menu.contracts": "Contracts",
         "references.menu.funding": "Funding",
         "references.menu.indices": "Indices",
@@ -904,8 +478,8 @@ window.appConfig = {
         "settlement.table.head.timestamp": "Timestamp",
         "settlement.table.head.type": "type",
         "settlement.table.head.updatedAt": "Updated At",
-        "statusBar.status.error": "Partially active or something",
-        "statusBar.status.ok": "All systems operational",
+        "statusBar.status.error": "Inactive",
+        "statusBar.status.ok": "Active",
         "symbol.breakdown.list.head.ask": "Ask",
         "symbol.breakdown.list.head.bid": "Bid",
         "symbol.breakdown.list.head.provider": "Provider",
@@ -953,8 +527,8 @@ window.appConfig = {
         "widget.indicator.newForm.instrument.placeholder": "Use the navigation one",
         "widget.indicator.title.accountSummary": "Account Summary",
         "widget.indicator.title.accountTrades": "Trade History",
-        "widget.indicator.title.chart": "Chart",
-        "widget.indicator.title.chartDepths": "Chart Depths",
+        "widget.indicator.title.chart": "Historical Chart",
+        "widget.indicator.title.chartDepths": "Depth Chart",
         "widget.indicator.title.closedOrders": "Order History",
         "widget.indicator.title.contractDetails": "Contract Details",
         "widget.indicator.title.createLimitOrder": "LIMIT",
@@ -1056,8 +630,11 @@ window.appConfig = {
         "apiKeys.table.head.scopes": "scopes",
         "app.header.title": "Trading Platform",
         "appMenu.account": "Account",
+        "appMenu.apiDocs": "API Docs",
+        "appMenu.kb": "Knowledge Base",
+        "appMenu.perpetual": "Perpetual",
         "appMenu.reference": "Reference",
-        "appMenu.trade": "Terminal",
+        "appMenu.yield": "Yield",
         "changePasswordForm.button.submit": "Save",
         "changePasswordForm.currentPassword.error.required": "Please input your Current Password!",
         "changePasswordForm.currentPassword.placeholder": "Current Password",
@@ -1140,7 +717,6 @@ window.appConfig = {
         "forms.signIn.password.error.required": "Please input your Password!",
         "forms.signIn.password.placeholder": "Password",
         "forms.signIn.remember": "Keep me signed in",
-        "forms.signIn.terms": "I accept the <TermsLink>terms and conditions</TermsLink>",
         "forms.signIn.title": "Signin",
         "forms.signUp.buttons.forgotPassword": "Forgot password",
         "forms.signUp.buttons.signIn": "Login",
@@ -1148,8 +724,8 @@ window.appConfig = {
         "forms.signUp.email.error.required": "Please input your Email Address!",
         "forms.signUp.isTaxResidentAccepted.error.required": "Please accept you aren't a U.S. tax resident!",
         "forms.signUp.isTaxResidentAccepted.label": "I'm not a U.S. tax resident",
-        "forms.signUp.isTermsAccepted.error.required": "Please accept terms and conditions!",
-        "forms.signUp.isTermsAccepted.label": "I accept the terms and conditions",
+        "forms.signUp.isTermsAccepted.error.required": "Please accept the terms and conditions!",
+        "forms.signUp.isTermsAccepted.label": "I accept the <TermsLink>terms and conditions</TermsLink>",
         "forms.signUp.title": "Signup",
         "funding.menu.title": "Funding",
         "funding.table.head.funding_rate": "Funding Rate",
@@ -1159,7 +735,7 @@ window.appConfig = {
         "funding.table.head.timestamp": "Timestamp",
         "instrument.fields.baseIm": "Base Initial Margin",
         "instrument.fields.baseMm": "Base Maintenance Margin",
-        "instrument.fields.contractSize": "Размер контракта",
+        "instrument.fields.contractSize": "Contract Size",
         "instrument.fields.contractType": "Contract Type",
         "instrument.fields.deliveryAt": "Delivery Date",
         "instrument.fields.deliveryFee": "Delivery Fee",
@@ -1308,7 +884,7 @@ window.appConfig = {
         "options.greek.vega": "Vega",
         "options.table.head.ask": "Ask",
         "options.table.head.bid": "Bid",
-        "options.table.head.delta": "âˆ† Delta",
+        "options.table.head.delta": "∆ Delta",
         "options.table.head.iv": "IV",
         "options.table.head.last": "Last",
         "options.table.head.mark": "Mark",
@@ -1418,7 +994,6 @@ window.appConfig = {
         "references.instrument.specification.funding": "Funding",
         "references.instrument.specification.mark": "Mark Index and Pricing",
         "references.instrument.specification.riskLimit": "Risk Limits and Margin",
-        "references.menu.api": "API Explorer",
         "references.menu.contracts": "Contracts",
         "references.menu.funding": "Funding",
         "references.menu.indices": "Indices",
@@ -1439,8 +1014,8 @@ window.appConfig = {
         "settlement.table.head.timestamp": "Timestamp",
         "settlement.table.head.type": "type",
         "settlement.table.head.updatedAt": "Updated At",
-        "statusBar.status.error": "Partially active or something",
-        "statusBar.status.ok": "All systems operational",
+        "statusBar.status.error": "Inactive",
+        "statusBar.status.ok": "Active",
         "symbol.breakdown.list.head.ask": "Ask",
         "symbol.breakdown.list.head.bid": "Bid",
         "symbol.breakdown.list.head.provider": "Provider",
@@ -1488,8 +1063,8 @@ window.appConfig = {
         "widget.indicator.newForm.instrument.placeholder": "Use the navigation one",
         "widget.indicator.title.accountSummary": "Account Summary",
         "widget.indicator.title.accountTrades": "Trade History",
-        "widget.indicator.title.chart": "Chart",
-        "widget.indicator.title.chartDepths": "Chart Depths",
+        "widget.indicator.title.chart": "Historical Chart",
+        "widget.indicator.title.chartDepths": "Depth Chart",
         "widget.indicator.title.closedOrders": "Order History",
         "widget.indicator.title.contractDetails": "Contract Details",
         "widget.indicator.title.createLimitOrder": "LIMIT",
