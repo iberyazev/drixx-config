@@ -133,7 +133,7 @@ window.appConfig = {
       "common.buttons.transferFunds": "Transfer Funds",
       "common.buttons.withdrawFunds": "Withdraw Funds",
       "common.error.passwordValidation":
-          "The password should be at least {minLength} symbols and contain letters and numbers",
+          "The password should be at least {minLength} symbols and contain uppercase and lowercase letters, numbers and special symbols",
       "common.na": "NA",
       "common.pageNotFoundMessage": "Sorry, this page was not found",
       "common.permissions.read": "Read",
