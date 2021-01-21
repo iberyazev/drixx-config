@@ -4,7 +4,7 @@ window.appConfig = {
   statusUrl: "https://status.drixx.com",
   logo: {
     darkThemeUrl:
-        "https://uploads-ssl.webflow.com/5f478771e161508c2a99cdd5/5fc530ab785eba6b4e47cd41_logo-drixx.svg",
+        "https://uploads-ssl.webflow.com/5f478771e161508c2a99cdd5/5f60fb637ff10b33cbad73a5_logo_dark.svg",
     lightThemeUrl:
         "https://uploads-ssl.webflow.com/5f478771e161508c2a99cdd5/5fc530ab785eba6b4e47cd41_logo-drixx.svg",
   },
