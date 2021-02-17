@@ -21,6 +21,8 @@ window.appConfig = {
       "appMenu.perpetual": "Perpetual",
       "appMenu.reference": "Reference",
       "appMenu.yield": "Yield",
+      "pages.yield.banner.title": "With Drixx Yield your stablecoins are worth more",
+      "pages.yield.banner.subTitle": "Earn up to 18% APY on your crypto, daily",
     },
     "ru-RU": {
       "appMenu.reference": "Справочник",
